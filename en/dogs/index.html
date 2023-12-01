@@ -32,19 +32,18 @@
 </head>
 
 <body>
-    <!-- https://emmet.io/ -->
-    <!-- header>h1{Test de menu} -->
+   
     <header>
         <button aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen"
       class="header__menuBtn"> <img
                 src="../public/icones/menu.svg" alt="" height="87px" width="100px"></button>
 
-        <h1>Les chats</h1>
+        <h1>Les chiens</h1>
         <nav  id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms class="menu">
             <ul>
                 <li><a href="../index.html">Accueil</a></li>
-                <li><a href="../dogs/index.html">les Chats</a></li>
-                <li><a href="../dogs/index.html">les Chiens</a></li>
+                <li><a href="../cats/index.html">The cats</a></li>
+                <li><a href="../dogs/index.html">The dogs</a></li>
             </ul>
         </nav>
     </header>
@@ -52,9 +51,9 @@
     <body>
         <nav>
             <ul>
-                <li> <img src="../public/icones/send.svg" alt="Icone envoyer"> <a href="chat-1.html">Chat-1</a></li>
-                <li> <img src="../public/icones/send.svg" alt="Icone envoyer"><a href="chat-2.html">Chat-2</a></li>
-            </ul> 
+                <li><img src="../public/icones/send.svg " width="15" alt="Icone envoyer"><a href="dog-1.html">chien-1</a></li>
+                <li><img src="../public/icones/send.svg" width="15" alt="Icone envoyer"><a href="dog-2.html">chien-2</a></li>
+            </ul>
         </nav>
     </body>
 
